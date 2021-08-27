@@ -13,7 +13,7 @@ public class PlayerJump : MonoBehaviour
     private Animator _animator;
     private bool jump = false;
     private bool grouded = false;
-    
+
     void Start()
     {
         _rigidBody2D = GetComponent<Rigidbody2D>();
@@ -22,7 +22,7 @@ public class PlayerJump : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Jump")) jump = true;
+        if (Input.GetButtonDown("Jump") && grouded) jump = true;
     }
 
     void FixedUpdate()
