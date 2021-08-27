@@ -17,6 +17,7 @@ public class PlayerDead : MonoBehaviour
         {
             Time.timeScale = 1;
             _animator.SetBool("Dead", false);
+            Point.point = 0;
         }
     }
 
@@ -27,6 +28,7 @@ public class PlayerDead : MonoBehaviour
             _animator.SetBool("Jump", false);
             _animator.SetBool("Dead", true);
             ObstacleGenerator.Instance.ResetObstacles();
+            ObstacleGenerator.Instance.GenerateObstacles();
             Time.timeScale = 0;
         }
     }
