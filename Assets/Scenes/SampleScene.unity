@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 155399891}
   - component: {fileID: 155399890}
   m_Layer: 0
-  m_Name: Sprite-0005_3
+  m_Name: Cactus_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6458721122411461205, guid: 5ec49461b6e215e41b982792551b3258,
+  m_Sprite: {fileID: 1464250414856482592, guid: 5ec49461b6e215e41b982792551b3258,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -254,7 +254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155399888}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 93.434, y: -11, z: 1}
+  m_LocalPosition: {x: 60, y: -11, z: 1}
   m_LocalScale: {x: 2.3946946, y: 3.6, z: 1}
   m_Children:
   - {fileID: 35800906}
@@ -335,7 +335,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 201014383}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 46.4, y: 0.9, z: 1}
+  m_LocalPosition: {x: 45.4, y: 0.9, z: 1}
   m_LocalScale: {x: 16.36426, y: 0, z: 4.180873}
   m_Children:
   - {fileID: 1828971822}
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 208071290}
   - component: {fileID: 208071289}
   m_Layer: 0
-  m_Name: Sprite-0005_2
+  m_Name: Cactus_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -411,7 +411,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3245382184870312957, guid: 5ec49461b6e215e41b982792551b3258,
+  m_Sprite: {fileID: -8484647995636279456, guid: 5ec49461b6e215e41b982792551b3258,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -431,7 +431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208071287}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100.2, y: -11, z: 1}
+  m_LocalPosition: {x: 60, y: -11, z: 1}
   m_LocalScale: {x: 3.8, y: 3.6, z: 1}
   m_Children:
   - {fileID: 1779693382}
@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 618014152}
   - component: {fileID: 618014151}
   m_Layer: 0
-  m_Name: Sprite-0005_1
+  m_Name: Cactus_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -634,7 +634,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3394916018753255218, guid: 5ec49461b6e215e41b982792551b3258,
+  m_Sprite: {fileID: 4438351552130452648, guid: 5ec49461b6e215e41b982792551b3258,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -654,7 +654,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618014149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.56, y: -11, z: 1}
+  m_LocalPosition: {x: 60, y: -11, z: 1}
   m_LocalScale: {x: 2.4, y: 3.6, z: 1}
   m_Children:
   - {fileID: 1274850091}
@@ -791,7 +791,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0634816, y: 1.1988193}
+  m_Size: {x: 1.0634816, y: 1.243}
   m_EdgeRadius: 0
 --- !u!50 &685005845
 Rigidbody2D:
@@ -813,7 +813,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!114 &685005846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -853,7 +853,7 @@ GameObject:
   - component: {fileID: 1137015666}
   - component: {fileID: 1137015665}
   m_Layer: 0
-  m_Name: Sprite-0005_0
+  m_Name: Cactus_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -898,7 +898,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4885373251318296212, guid: 5ec49461b6e215e41b982792551b3258,
+  m_Sprite: {fileID: 7873444928579934181, guid: 5ec49461b6e215e41b982792551b3258,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -918,7 +918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137015663}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 82.9, y: -11, z: 1}
+  m_LocalPosition: {x: 60, y: -11, z: 1}
   m_LocalScale: {x: 3.2, y: 3.6, z: 1}
   m_Children:
   - {fileID: 310278834}
@@ -992,7 +992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1775874229}
   m_Layer: 0
-  m_Name: Obstacle
+  m_Name: Cactus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1140,8 +1140,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2033574202}
   - component: {fileID: 2033574204}
-  - component: {fileID: 2033574203}
   - component: {fileID: 2033574205}
+  - component: {fileID: 2033574203}
   m_Layer: 0
   m_Name: Triggerer
   m_TagString: Untagged
@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: 2124240776}
   - component: {fileID: 2124240775}
   m_Layer: 0
-  m_Name: Generator
+  m_Name: ObstacleGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

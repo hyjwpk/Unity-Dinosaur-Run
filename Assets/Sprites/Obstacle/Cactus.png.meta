@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: -6458721122411461205
     second: Sprite-0005_3
+  - first:
+      213: 7873444928579934181
+    second: Cactus_0
+  - first:
+      213: 4438351552130452648
+    second: Cactus_1
+  - first:
+      213: -8484647995636279456
+    second: Cactus_2
+  - first:
+      213: 1464250414856482592
+    second: Cactus_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,7 +111,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0005_0
+      name: Cactus_0
       rect:
         serializedVersion: 2
         x: 0
@@ -107,41 +119,41 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c615af769eaa33cb0800000000000000
-      internalID: -4885373251318296212
+      spriteID: 5e79b9e7278144d60800000000000000
+      internalID: 7873444928579934181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0005_1
+      name: Cactus_1
       rect:
         serializedVersion: 2
-        x: 129
+        x: 128
         y: 0
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec8cde33ed5d2e0d0800000000000000
-      internalID: -3394916018753255218
+      spriteID: 8ac0a05a831389d30800000000000000
+      internalID: 4438351552130452648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0005_2
+      name: Cactus_2
       rect:
         serializedVersion: 2
         x: 256
@@ -149,20 +161,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb739107e9e90d20800000000000000
-      internalID: 3245382184870312957
+      spriteID: 0679edff999704a80800000000000000
+      internalID: -8484647995636279456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0005_3
+      name: Cactus_3
       rect:
         serializedVersion: 2
         x: 384
@@ -170,14 +182,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba54a53eb530e56a0800000000000000
-      internalID: -6458721122411461205
+      spriteID: 02f2dbf8eff025410800000000000000
+      internalID: 1464250414856482592
       vertices: []
       indices: 
       edges: []

@@ -18,7 +18,7 @@ public class BackgroundLoop : MonoBehaviour
 
     void Update()
     {
-        offset += (Time.deltaTime * rollSpeed) /10f;
+        offset += (Time.deltaTime * rollSpeed) / 10f;
         material.SetTextureOffset("_MainTex", new Vector2(offset, 0));
     }
 }
