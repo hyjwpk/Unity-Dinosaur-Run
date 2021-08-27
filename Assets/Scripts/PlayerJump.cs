@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerJump : MonoBehaviour
 {
     public float jumpVelocity = 20f;
-    public float gravityScale = 5f;
+    public float gravityScale = 2f;
     public float fallmultiplier = 2.5f;
     public float lowjumpmultiplier = 2f;
 
@@ -13,6 +13,7 @@ public class PlayerJump : MonoBehaviour
     private Animator _animator;
     private bool jump = false;
     private bool grouded = false;
+    
     void Start()
     {
         _rigidBody2D = GetComponent<Rigidbody2D>();
