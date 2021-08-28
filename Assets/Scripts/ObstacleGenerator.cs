@@ -35,25 +35,37 @@ public class ObstacleGenerator : MonoBehaviour
 
     void ScrollLevel()
     {
-        int multiply =  Mathf.Min(1+(Point.getPoint()/5000),2);
+        int multiply = Mathf.Min(1 + (Point.getPoint() / 5000), 2);
         for (int i = 0; i < activeElements.Count; i++)
         {
-            activeElements[i].transform.position -= Vector3.right * scrollSpeed *multiply* Time.deltaTime;
+            activeElements[i].transform.position -= Vector3.right * scrollSpeed * multiply * Time.deltaTime;
         }
     }
 
     public void GenerateObstacles()
     {
+        if (activeElements.Count == Obstacles.Count) return;
         int n = Random.Range(0, Obstacles.Count);
         GameObject go = Obstacles[n];
-        activeElements.Add(go);
+        if (!activeElements.Contains(go))
+            activeElements.Add(go);
+        else GenerateObstacles();
     }
 
-    public void ResetObstacles()
+    public void ResetObstaclesAll()
     {
-        GameObject back = activeElements[0];
-        int operate= Random.Range(0,20);
-        back.transform.position = new Vector3(38+operate, -11, 1);       
-        activeElements.RemoveAt(0);
+        foreach (GameObject target in activeElements)
+        {
+            int operate = Random.Range(0, 20);
+            target.transform.position = new Vector3(38 + operate, -11, 1);
+        }
+        activeElements.Clear();
+    }
+
+    public void ResetObstacles(GameObject target)
+    {
+        int operate = Random.Range(0, 20);
+        target.transform.position = new Vector3(38 + operate, -11, 1);
+        activeElements.Remove(target);
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Point : MonoBehaviour
 {
-  
+
     public static int point = 0;
     Text _text;
 
@@ -23,8 +23,9 @@ public class Point : MonoBehaviour
     {
         point += 1;
     }
-     
-     public static int getPoint(){
-         return point;
-     }
+
+    public static int getPoint()
+    {
+        return point;
+    }
 }
