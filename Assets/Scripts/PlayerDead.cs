@@ -27,7 +27,7 @@ public class PlayerDead : MonoBehaviour
         {
             _animator.SetBool("Jump", false);
             _animator.SetBool("Dead", true);
-            ObstacleGenerator.Instance.ResetObstacles();
+            ObstacleGenerator.Instance.ResetObstaclesAll();
             ObstacleGenerator.Instance.GenerateObstacles();
             Time.timeScale = 0;
         }

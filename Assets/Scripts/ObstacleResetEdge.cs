@@ -8,7 +8,7 @@ public class ObstacleResetEdge : MonoBehaviour
     {
         if (other.name == "ResetTrigger")
         {
-            ObstacleGenerator.Instance.ResetObstacles();
+            ObstacleGenerator.Instance.ResetObstacles(other.transform.parent.gameObject);
         }
     }
 }
